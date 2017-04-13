@@ -3,7 +3,9 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.8.0"]]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/java.jdbc "0.7.0-alpha3"]
+                 [org.xerial/sqlite-jdbc "3.16.1"]]
   :main ^:skip-aot cage.core
   :source-paths ["src/main/clj"]
   :test-paths ["src/test/clj"]
